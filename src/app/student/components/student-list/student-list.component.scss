@@ -1,0 +1,49 @@
+
+.student-list-container {
+    padding: 16px;
+  }
+  
+  table {
+    width: 100%;
+  }
+  /* student-list.component.scss */
+
+.student-list-container {
+    margin-top: 20px;
+  }
+  
+  .mat-elevation-z8 {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  }
+  
+  .mat-header-cell,
+  .mat-cell {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .mat-header-row,
+  .mat-row {
+    background-color: #f5f5f5;
+  }
+  
+  .mat-header-row {
+    font-weight: bold;
+  }
+  
+  .mat-row:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .mat-icon-button {
+    min-width: 36px;
+  }
+  
+  .add-button{
+    display: flex;
+    justify-content: end;
+  }
+  

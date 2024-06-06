@@ -1,1 +1,52 @@
-/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  app-sidebar {
+    width: 200px;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  /* styles.css */
+:root {
+    --primary-color: #96bde6;
+    --secondary-color: #d1e4f6;;
+  }
+  
+  body.light-theme {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+  }
+  
+  body.dark-theme {
+    --primary-color: #343a40;
+    --secondary-color: #495057;
+  }
+  
+  header, footer {
+    background: var(--primary-color);
+  }
+  
+  aside {
+    background: var(--secondary-color);
+  }
+  
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
